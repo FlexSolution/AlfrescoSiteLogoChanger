@@ -1,0 +1,22 @@
+<extension>
+	<modules>
+		<module>
+			<id>Site Logo Changer</id>
+			<version>1.0</version>
+			<auto-deploy>true</auto-deploy>  
+			<customizations>
+				<customization>
+					<targetPackageRoot>org.alfresco.share.header</targetPackageRoot>
+					<sourcePackageRoot>com.flexsolution.site-logo.share-header</sourcePackageRoot>
+				</customization>
+				<customization>
+					<targetPackageRoot>org.alfresco</targetPackageRoot>
+					<sourcePackageRoot> </sourcePackageRoot>
+					<dependencies>
+						<css>site-logo-changer-share/components/site-logo-changer/site-logo.css</css>
+					</dependencies>
+				</customization>
+			</customizations>
+		</module>
+	</modules>
+</extension>
