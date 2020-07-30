@@ -91,13 +91,6 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- Bring in Spring Context so we can use ApplicationContext, ApplicationContextAware etc -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>3.2.17.RELEASE</version>
-        </dependency>
-
         <!-- Bring in Alfresco RAD so we get access to AlfrescoTestRunner classes -->
         <dependency>
             <groupId>org.alfresco.maven</groupId>
