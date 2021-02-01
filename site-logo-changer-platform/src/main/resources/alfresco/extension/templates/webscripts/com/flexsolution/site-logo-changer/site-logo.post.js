@@ -9,7 +9,7 @@ function main() {
     var siteId = url.templateArgs.siteId;
 
     // locate file attributes
-    for (var field in formdata.fields) {
+    for each(field in formdata.fields) {
       if (field.name == "filedata" && field.isFile) {
         filename = field.filename;
         content = field.content;
